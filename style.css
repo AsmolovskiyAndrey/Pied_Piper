@@ -1,6 +1,5 @@
 body{
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
 }
 .Main{
     display: flex; /*если он закоментирован, то будет расстояние меджу блоками */
@@ -12,86 +11,80 @@ body{
 .Head{ /* Head_Blocks */
     background: #007765;
     overflow: auto;
-    padding: 0 55px 0 55px;
-    height: 84px;
-    max-width: 1219px;
-    position: fixed;
     display: flex;
     flex-direction: row;
 }
 .Head_logo{
-    position: fixed;
-    width: 184px;
-    height: 45px;
-    left: 55px;
-    top: 30px;
-    padding-left: 55px;
+    padding: 20px 0 20px 55px;
 }
 .Head_Text{
     color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding-left: 490px;
+    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
-    text-align: center;
-    display: inline-flex;
-    position: static;
-    left: 741px;
-    top: 8px;
 }
-.Problem{
-    padding-right: 10px;
+.The_Problem{
+    padding-right: 7px;
 }
 .Pied{
-    padding-right: 10px;
+    padding-right: 7px;
 }
 .Team{
-
 }
-
-
 .Piper_Net{ /* Piper_Blocks */
     background-image: url(image/image.png);
     height: 403px;
-    padding-top: 200px; 
-    position: static;  
-    width: 1219px;
-    padding: 0 55px 0 55px;
 }
 .Piper_Text{
+    text-align: center;
+    color: #fff;
+    font-style: normal;
     font-weight: 500;
     font-size: 72px;
     line-height: 84px;
-    text-align: center;
-    color: #fff;
+    padding-top: 70px;
 }
-
 .Problem{
-    position: static;
-    width: 1219px;
-    padding: 0 55px 0 55px;
     background: #EEEEEE;
-    padding-left: 50px;
+    height: 719px;
 }
 .Problem_Title{
+    font-style: normal;
     font-weight: 500;
     font-size: 64px;
     line-height: 75px;
     text-align: center;
     color: #007765;
-    padding-top: 51px;
-    padding-bottom: 16px;
 }
 .Problem_Text{
+    color: #000000;
+    font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
-    color: #000000;
-    
+    padding: 0 50px 50px 50px;  
 }
-
-.Introdusing{
-    background-color: aquamarine;
+.Problem_Text_Bolt{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
 }
-.Team{
-    background-color: bisque;
+.Space{
+    background-image: url(image/Hero.png);
+    background-size: cover;
+    height: 483px;
+}
+.Space_text{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 80px 120px 0 120px;  
 }
