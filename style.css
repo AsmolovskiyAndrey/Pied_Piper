@@ -1,18 +1,23 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    width: 1219px;
-    padding: 0 55px 0 55px;
 }
-
+.Main{
+    display: flex; /*если он закоментирован, то будет расстояние меджу блоками */
+    flex-direction: column; /*column вместо row и будет всё по вертикали*/
+    max-width: 1219px;
+    margin: auto;
+}
 
 .Head{ /* Head_Blocks */
     background: #007765;
     overflow: auto;
-    width: 1219px;
+    padding: 0 55px 0 55px;
     height: 84px;
+    max-width: 1219px;
     position: fixed;
-    display: inline-flex
+    display: flex;
+    flex-direction: row;
 }
 .Head_logo{
     position: fixed;
@@ -29,7 +34,7 @@ body{
     line-height: 28px;
     text-align: center;
     display: inline-flex;
-    position: fixed;
+    position: static;
     left: 741px;
     top: 8px;
 }
@@ -46,12 +51,11 @@ body{
 
 .Piper_Net{ /* Piper_Blocks */
     background-image: url(image/image.png);
-    width: 1219px;
     height: 403px;
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 200px; 
     position: static;  
+    width: 1219px;
+    padding: 0 55px 0 55px;
 }
 .Piper_Text{
     font-weight: 500;
@@ -59,4 +63,35 @@ body{
     line-height: 84px;
     text-align: center;
     color: #fff;
+}
+
+.Problem{
+    position: static;
+    width: 1219px;
+    padding: 0 55px 0 55px;
+    background: #EEEEEE;
+    padding-left: 50px;
+}
+.Problem_Title{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    padding-top: 51px;
+    padding-bottom: 16px;
+}
+.Problem_Text{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    
+}
+
+.Introdusing{
+    background-color: aquamarine;
+}
+.Team{
+    background-color: bisque;
 }
