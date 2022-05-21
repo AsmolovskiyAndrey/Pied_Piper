@@ -8,26 +8,39 @@ body{
 
 .Head{ /* Head_Blocks */
     background: #007765;
+    overflow: auto;
     width: 1219px;
     height: 84px;
-    position: fixed
+    position: fixed;
+    display: inline-flex
 }
 .Head_logo{
-    position: relative;
+    position: fixed;
     width: 184px;
     height: 45px;
     left: 55px;
-    top: 20px;
+    top: 30px;
+    padding-left: 55px;
 }
 .Head_Text{
-    position: relative;
+    color: #fff;
+    font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-    color: #FFFFFF;
+    display: inline-flex;
+    position: fixed;
+    left: 741px;
+    top: 8px;
 }
 .Problem{
- 
+    padding-right: 10px;
+}
+.Pied{
+    padding-right: 10px;
+}
+.Team{
+
 }
 
 
@@ -37,7 +50,8 @@ body{
     height: 403px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 140px;   
+    padding-top: 200px; 
+    position: static;  
 }
 .Piper_Text{
     font-weight: 500;
