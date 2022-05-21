@@ -1,5 +1,48 @@
 body{
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     width: 1219px;
     padding: 0 55px 0 55px;
+}
+
+
+.Head{ /* Head_Blocks */
+    background: #007765;
+    width: 1219px;
+    height: 84px;
+    position: fixed
+}
+.Head_logo{
+    position: relative;
+    width: 184px;
+    height: 45px;
+    left: 55px;
+    top: 20px;
+}
+.Head_Text{
+    position: relative;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Problem{
+ 
+}
+
+
+.Piper_Net{ /* Piper_Blocks */
+    background-image: url(image/image.png);
+    width: 1219px;
+    height: 403px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 140px;   
+}
+.Piper_Text{
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #fff;
 }
