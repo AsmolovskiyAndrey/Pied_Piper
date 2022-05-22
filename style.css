@@ -88,3 +88,25 @@ body{
     color: #FFFFFF;
     padding: 80px 120px 0 120px;  
 }
+.Introdusing{
+    background-color: white;
+    padding: 0 50px 50px 50px;
+}
+.Introdusing_Text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+.Introdusing_Title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #007765;
+}
+.Introdusing_Logo_Text{
+    float: left; /* Выравнивание по правому краю */
+    background-color: aquamarine;
+}
