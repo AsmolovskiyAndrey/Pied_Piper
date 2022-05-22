@@ -7,16 +7,17 @@
     <title>Домашнее задание Pied Piper</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="Main">
-        <div id="Logo" class="Head"> <!-- Head_with_logo -->
+<body link="white" vlink="white" alink="blue">
+    
+    <div id="Logo_Anchor" class="Main">
+        <div class="Head"> <!-- Head_with_logo -->
             <div class="Head_logo">
                 <img class="Logo" src="image/logo.png" alt="Logo">
             </div>
             <div class="Head_Text">
-                <h4 class="The_Problem">the problem |</h4>
-                <h4 class="Pied">PiedPiperCoin |</h4>
-                <h4 class="Team">the team</h4>
+                <a href="#Promblem_Anchor"><h4 class="The_Problem">the problem |</h4></a>
+                <a href="#Pied_Anchor"><h4 class="Pied">PiedPiperCoin |</h4></a>
+                <a href="#Team_Anchor"><h4 class="Team_Head">the team</h4></a>
             </div>
         </div>
         <div class="Piper_Net"> <!-- Block_Piper_Here -->
@@ -25,7 +26,7 @@
             </div>
         </div>
         <div class="Problem"> <!-- Block_Problem -->
-            <p class="Problem_Title">The Problem</p>
+            <p id="Promblem_Anchor" class="Problem_Title">The Problem</p>
             <p class="Problem_Text">
                 Beneath the flashy homepages of your favorite sites lurk Hooli™ and other evil corporations out to hoard and sell your most personal data.
             </p> 
@@ -46,37 +47,33 @@
             </p>
         </div>
         <div class="Introdusing">
-            <h2 class="Introdusing_Title">Introducing PiedPiperCoin</h2>
-            <span class="Introdusing_Logo_Text">  
-                <img src="image/PPC Logo.png" alt="PPC Logo">
+            <p id="Pied_Anchor" class="Introdusing_Title">Introducing PiedPiperCoin</p> 
+                <a href="#Logo_Anchor"><img class="Introdusing_Logo_Text" src="image/PPC Logo.png" alt="PPC Logo"></a>
                 <p class="Introdusing_Text">
                     Pied Piper's new internet is built for users, by users.
                     You supply the storage, compute, and networking resources that power our entire decentralized web.
                 </p>
-            </span>
-            <span>
-                <p>
+                <p class="Introdusing_Text">
                     Now there's a way to give credit where credit is due. Compute credit, that is!
                     The more you share your device resources, the more PiedPiperCoin you receive.
                 </p>
-                <p>
+                <p class="Introdusing_Text">
                     Whether you're a developer with an app ready for market, or just an Average Joe with
                      a smartphone you'll love all you can do with PiedPiperCoin.
                 </p>
-            </span>
         </div>
         <div class="Team">
-            <h3>The Team</h3>
+            <h3 id="Team_Anchor" class="Team_Title">The Team</h3>
             <div class="Team_image">
-                <span class="first_block">
-                    <img src="image/Team/Team member card.png" alt="0">
-                    <img src="image/Team/Team member card (1).png" alt="1">
-                    <img src="image/Team/Team member card (2).png" alt="2">
+                <span>
+                    <img class="first_block" src="image/Team/Team member card.png" alt="0">
+                    <img class="second_block" src="image/Team/Team member card (1).png" alt="1">
+                    <img class="second_block" src="image/Team/Team member card (2).png" alt="2">
                 </span>
                 <span>
-                    <img src="image/Team/Team member card (3).png" alt="3">
-                    <img src="image/Team/Team member card (4).png" alt="4">
-                    <img src="image/Team/Team member card (5).png" alt="5">
+                    <img class="first_block" src="image/Team/Team member card (3).png" alt="3">
+                    <img class="second_block" src="image/Team/Team member card (4).png" alt="4">
+                    <img class="second_block" src="image/Team/Team member card (5).png" alt="5">
                 </span>
 
             </div>
